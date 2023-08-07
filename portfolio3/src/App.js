@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import SkillSlider from './components/skillslider/SkillSlider';
 
 function App() {
   return (
     <>
-    header
+    <Header/>
     hero
     about
     <SkillSlider/>
