@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Contact from './components/contact/Contact.jsx';
 import SkillSlider from './components/skillslider/SkillSlider';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     about
     <SkillSlider/>
     portfolio
-    contact
+    <Contact/>
     <Footer/>
     </>
   );
