@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import SkillSlider from './components/skillslider/SkillSlider';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <SkillSlider/>
     portfolio
     contact
-    footer
+    <Footer/>
     </>
   );
 }
