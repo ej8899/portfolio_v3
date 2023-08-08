@@ -1,0 +1,12 @@
+.hero {
+  --spacer: 1.5vh;
+  --timer: 0.5s;
+
+  position: relative;
+
+  color: var(--clr-neutral-200);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}

@@ -10,7 +10,7 @@ const Header = () => {
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
               {/* logo */}
               <div className="logo">
-home button
+home button / about / portfolio / contact
               </div>
             </div>
           </div>
