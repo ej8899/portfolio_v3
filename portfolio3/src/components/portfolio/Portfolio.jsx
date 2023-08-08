@@ -1,7 +1,7 @@
 
-//import './About.css';
+//import './Portfolio.css';
 
-function About() {
+function Portfolio() {
   return (
     <section className='about' aria-label='hero with github & linkedin links'>
       <hr></hr>
@@ -22,4 +22,4 @@ function About() {
   );
 }
 
-export default About;
+export default Portfolio;

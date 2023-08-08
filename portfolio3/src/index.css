@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* - Cursor */
+
+.cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid transparent;
+	-o-transition: width 0.3s cubic-bezier(0.3, 0, 0.3, 1), height 0.3s cubic-bezier(0.3, 0, 0.3, 1), background 0.3s cubic-bezier(0.3, 0, 0.3, 1), margin 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+	transition: width 0.3s cubic-bezier(0.3, 0, 0.3, 1), height 0.3s cubic-bezier(0.3, 0, 0.3, 1), background 0.3s cubic-bezier(0.3, 0, 0.3, 1), margin 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+	-webkit-transition: width 0.3s cubic-bezier(0.3, 0, 0.3, 1), height 0.3s cubic-bezier(0.3, 0, 0.3, 1), background 0.3s cubic-bezier(0.3, 0, 0.3, 1), margin 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+	z-index: 999;
+	pointer-events: none;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-khtml-border-radius: 100%;
+}
+
+.cursor.cursor-zoom {
+	margin-top: -25px;
+	margin-left: -25px;
+	width: 80px;
+	height: 80px;
+	background: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* nav bar frosting */
+.frosting {
+  background-color: rgba(255, 255, 255, 0.6); /* Transparent background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greyscale {
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+}
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#scrollToTopButton:hover {
+  opacity: 0.8;
+}
+
+#scrollToTopButton.active {
+  transform: translateY(0);
+  display:block;
+  opacity: 1.0;
+}
