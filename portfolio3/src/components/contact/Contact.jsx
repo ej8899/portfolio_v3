@@ -162,7 +162,7 @@ function Contact() {
                   name='Message'
                   id='message'
                   required
-                  placeholder='Hi Bryan!'
+                  placeholder='Hi Ernie!'
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   className={`${

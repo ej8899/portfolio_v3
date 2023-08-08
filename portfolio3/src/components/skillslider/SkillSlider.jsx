@@ -9,6 +9,7 @@ some of this was used below:
 const SkillSlider = () => {
   return (
 <Fragment >
+  SKILL SLIDER
   <article className="marquee_wrapper scrolla-element-anim-1 scroll-animate" style={{
           backgroundImage: 'linear-gradient(to right, rgba(240, 235, 227, 0), rgba(240, 235, 227, 1) 20%, rgba(240, 235, 227, 1) 80%, rgba(240, 235, 227, 0))',
           WebkitMaskImage: 'linear-gradient(to right, rgba(240, 235, 227, 0), rgba(240, 235, 227, 1) 20%, rgba(240, 235, 227, 1) 80%, rgba(240, 235, 227, 0))', // For Safari support

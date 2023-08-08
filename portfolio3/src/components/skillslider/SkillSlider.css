@@ -1,16 +1,6 @@
 
 /* SKILLS marquee */
-:root {
-  --myorange: rgb(209, 144, 24);
-  --color-text: orange;
-  --color-bg: #F0EBE3;
-  --color-bg-accent: #F0EBE3;
-  --size: clamp(10rem, 1rem + 20vmin, 10rem);
-  --gap: calc(var(--size) / 14);
-  --duration: 60s;
-  --scroll-start: 0;
-  --scroll-end: calc(-100% - var(--gap));
-}
+
 .marquee {
   display: flex;
   overflow: hidden;
