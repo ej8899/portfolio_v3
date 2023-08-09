@@ -1,3 +1,6 @@
+//
+// cursor manipulation system here:
+//
 export function initCursor() {
   let mouseX = window.innerWidth / 2,
       mouseY = window.innerHeight / 2;
