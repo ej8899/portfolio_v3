@@ -70,13 +70,36 @@
 	width: 80px;
 	height: 80px;
 	background: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0.5);
+	border-color: rgba(3, 101, 104, 0.932);
+  border-width: 2px;
 }
 
 
 a {
-
+	color: var(--myorange);
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+	-webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 }
+
+a:link {
+	color: var(--myorange);
+}
+
+a:active {
+	color: var(--myorange);
+}
+
+a:visited {
+	color: var(--myorange);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .a {
 
 }

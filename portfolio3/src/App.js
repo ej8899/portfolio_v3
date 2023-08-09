@@ -18,7 +18,7 @@ import Portfolio from './components/portfolio/Portfolio';
 function App() {
   /* Setup initial JS items */
   useEffect(() => {
-    //activeAnimation();
+  //  activeAnimation();
     initCursor();
     //window.addEventListener("scroll", activeAnimation);
     //window.addEventListener("scroll", stickyNav);
