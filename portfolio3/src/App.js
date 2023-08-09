@@ -21,7 +21,7 @@ function App() {
   //  activeAnimation();
     initCursor();
     //window.addEventListener("scroll", activeAnimation);
-    //window.addEventListener("scroll", stickyNav);
+    window.addEventListener("scroll", stickyNav);
 
     // scroll to top button
     const scrollToTopButton = document.getElementById('scrollToTopButton');
@@ -47,7 +47,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
-      <button id="scrollToTopButton" title="Scroll to Top"><i class="fas fa-chevron-up"></i></button>
+      <button id="scrollToTopButton" title="Scroll to Top"><i className="fas fa-chevron-up"></i></button>
       <div className="cursor" />
     </>
   );
